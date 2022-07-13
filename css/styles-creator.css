@@ -1,0 +1,258 @@
+body{
+  font-family: Montserrat;
+}
+#title {
+  background-color: #66BFBF;
+  color: white;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: Montserrat;
+  font-weight:normal;
+  font-size: 1.5rem;
+}
+
+hr{
+  border: #EAF6F6 6px;
+  border-bottom: none;
+  width: 30%;
+  margin: 30px auto;
+}
+
+.container-fluid{
+  padding: 7% 15% 7%;
+
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.fixed-top{
+  padding: 0 8% 0;
+  background-color: #66BFBF;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.dwnld-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+  width: 20%;
+  transform: rotate(30deg);
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+  position: absolute;
+}
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #66BFBF;
+}
+.feature-p{
+  color: #8f8f8f;
+}
+
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  .commoninfo-text{
+    text-align: left;
+  }
+
+  .title-img{
+margin-left: 0;
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* CTA */
+
+#cta{
+  background-color: #66BFBF;
+  text-align: center;
+  padding: 2.5rem 0 ;
+}
+
+.cta{
+  padding: 2.5rem 15%;
+  color: #fff;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 3.5rem;
+}
+.download-btn{
+  margin: 0 1% 2%;
+}
+
+
+hr{
+  border: #EAF6F6 6px;
+  border-bottom: none;
+  width: 30%;
+  margin: 40px auto;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 2.5rem 0;
+  margin: 2rem 0 2rem;
+}
+
+.logo-btn{
+  padding: 0 1% 1%;
+  color: #000;
+}
+.logo-btn:hover{
+  color: #66BFBF;
+}
+.footer-text{
+  color: #8f8f8f;
+}
+
+
+
+/* Creators page  */
+
+
+.personal-info{
+text-align: left;
+}
+
+.personal-pic{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.creator-box{
+text-align: center;
+padding: 0%;
+}
+
+@media (max-width:576px) {
+  .pic-padding-small{
+    margin-top: 3rem;
+  }
+}
+
+#creator{
+  padding: 8% 0 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.creator-align{
+  padding-right: 20px;
+}
+
+#commoninfo{
+  background-color: #fff;
+  text-align: center;
+  padding: 2.5rem 9% ;
+}
+
+.commoninfo{
+  padding: 2.5rem 15%;
+  color: #fff;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 3.5rem;
+}
