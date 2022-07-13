@@ -210,8 +210,11 @@ hr{
 /* Creators page  */
 
 
-.personal-info{
-text-align: left;
+#creator{
+  padding: 8% 0 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .personal-pic{
@@ -226,22 +229,7 @@ text-align: center;
 padding: 0%;
 }
 
-@media (max-width:576px) {
-  .pic-padding-small{
-    margin-top: 3rem;
-  }
-}
 
-#creator{
-  padding: 8% 0 0;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-}
-
-.creator-align{
-  padding-right: 20px;
-}
 
 #commoninfo{
   background-color: #fff;
@@ -255,4 +243,70 @@ padding: 0%;
   font-weight: bold;
   font-family: Montserrat;
   font-size: 3.5rem;
+}
+
+.commoninfo-text{
+  margin: 0 10% 0;
+}
+
+  @media (max-width: 991px) {
+
+    #title{
+      text-align: center;
+    }
+    /* Navigation Bar */
+
+    .navbar-brand{
+      font-size: 5rem;
+    }
+
+
+
+    .navbar-toggler-icon{
+      width: 60px;
+      height: 60px;
+
+    }
+
+    .fixed-top{
+      padding: 0 2% 0;
+    }
+
+    .nav-item{
+      padding: 0 18px;
+    }
+
+    .nav-link{
+      font-size: 3rem;
+    }
+
+
+  /* Nav ends */
+
+/* Creators  */
+  .padding-max991{
+    margin-top: 7rem;
+  }
+
+/* Text describing the creators goals */
+.commoninfo-text{
+  margin: 0 2%;
+    padding: 2.5rem 0 0;
+  font-size: 3rem;
+}
+  .commoninfo-text-p{
+  font-size: 2rem;
+  }
+
+
+
+  .logo-btn{
+    padding: 0 4% 1%;
+    font-size: 2rem;
+  color: #66BFBF;
+  }
+
+  .footer-text{
+    font-size: 1.5rem;
+  }
 }
